@@ -1,0 +1,94 @@
+Script started on Sun 08 Mar 2020 06:18:57 AM EDT
+]0;root@localhost:~/boot[?1034h[root@localhost boot]# mkdir /usr/lib/dracut/modules.d/01test
+]0;root@localhost:~/boot[root@localhost boot]# mkdir /usr/lib/dracut/modules.d/01test[1P /usr/lib/dracut/modules.d/01test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /usr/lib/dracut/modules.d/01test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /usr/lib/dracut/modules.d/01test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /usr/lib/dracut/modules.d/01test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /usr/lib/dracut/modules.d/01test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn /usr/lib/dracut/modules.d/01test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca /usr/lib/dracut/modules.d/01test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn /usr/lib/dracut/modules.d/01test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co /usr/lib/dracut/modules.d/01test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/module-setup.sh
+[?1049h[1;52r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1 File: ...r/lib/dracut/modules.d/01test/module-setup.sh           [50;36H[ New File ][51d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[52d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;73H(B[0;7mModified[3d(B[m#!/bin/bash[5dcheck() {[6;5Hreturn 0[7d}[9ddepends() {[10;5Hreturn 0[11d}[13dinstall() {[14;5Hinst_hook cleanup 00 "${moddir}/test.sh"[15d}[50d[K[15d}[50d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                      [51;1H Y(B[m Yes[K[52d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[50;62H(B[0;7mFile Name to Write: /usr/lib/dracut/modules.d/01test/module-setup.sh[51d^G(B[m Get Help[51;21H(B[0;7mM-D(B[m DOS Format	(B[0;7mM-A(B[m Append[51;61H(B[0;7mM-B(B[m Backup File[52d(B[0;7m^C(B[m Cancel	    (B[0;7mM-M(B[m Mac Format	(B[0;7mM-P(B[m Prepend[50;69H[51d[39;49m(B[m[J[1;73H(B[0;7m        [50;32H(B[m[1K	(B[0;7m[ Wrote 13 lines ](B[m[K[52;82H[52;1H[?1049l[?1l>]0;root@localhost:~/boot[root@localhost boot]# nano /usr/lib/dracut/modules.d/01test/module-setup.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kеу[K[Ktest.sh
+[?1049h[1;52r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1    File: /usr/lib/dracut/modules.d/01test/test.sh                [50;36H[ New File ][51d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[52d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;73H(B[0;7mModified[3d(B[m#!/bin/bash[5dexec 0<>/dev/console 1<>/dev/console 2<>/dev/console[6dcat <<'msgend'[7dHello! You are in dracut module![8d ___________________[9d< I'm dracut module >[10d -------------------[11;4H\[12d\[13d	.--.[14;8H|o_o |[15;8H|:_/ |[16;7H//   \ \[17;6H(|     | )[18;5H/'\_   _/`\[19;5H\___)=(___/[20dmsgend[21dsleep 10[22decho " continuing...."[50d[K[22;23H[50d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                      [51;1H Y(B[m Yes[K[52d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[50;62H(B[0;7mFile Name to Write: /usr/lib/dracut/modules.d/01test/test.sh[51d^G(B[m Get Help[51;21H(B[0;7mM-D(B[m DOS Format	(B[0;7mM-A(B[m Append[51;61H(B[0;7mM-B(B[m Backup File[52d(B[0;7m^C(B[m Cancel	    (B[0;7mM-M(B[m Mac Format	(B[0;7mM-P(B[m Prepend[50;61H[51d[39;49m(B[m[J[1;73H(B[0;7m        [50;32H(B[m[1K	(B[0;7m[ Wrote 20 lines ](B[m[K[52;82H[52;1H[?1049l[?1l>]0;root@localhost:~/boot[root@localhost boot]# mkinitrd -f -v /boot/initramfs-$(uname -r).img $(uname -r)
+Executing: /usr/sbin/dracut -f -v /boot/initramfs-3.10.0-957.12.2.el7.x86_64.img 3.10.0-957.12.2.el7.x86_64
+dracut module 'modsign' will not be installed, because command 'keyctl' could not be found!
+dracut module 'busybox' will not be installed, because command 'busybox' could not be found!
+dracut module 'crypt' will not be installed, because command 'cryptsetup' could not be found!
+dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+dracut module 'dmsquash-live-ntfs' will not be installed, because command 'ntfs-3g' could not be found!
+dracut module 'mdraid' will not be installed, because command 'mdadm' could not be found!
+dracut module 'multipath' will not be installed, because command 'multipath' could not be found!
+dracut module 'cifs' will not be installed, because command 'mount.cifs' could not be found!
+dracut module 'iscsi' will not be installed, because command 'iscsistart' could not be found!
+dracut module 'iscsi' will not be installed, because command 'iscsi-iname' could not be found!
+95nfs: Could not find any command of 'rpcbind portmap'!
+dracut module 'modsign' will not be installed, because command 'keyctl' could not be found!
+dracut module 'busybox' will not be installed, because command 'busybox' could not be found!
+dracut module 'crypt' will not be installed, because command 'cryptsetup' could not be found!
+dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+dracut module 'dmsquash-live-ntfs' will not be installed, because command 'ntfs-3g' could not be found!
+dracut module 'mdraid' will not be installed, because command 'mdadm' could not be found!
+dracut module 'multipath' will not be installed, because command 'multipath' could not be found!
+dracut module 'cifs' will not be installed, because command 'mount.cifs' could not be found!
+dracut module 'iscsi' will not be installed, because command 'iscsistart' could not be found!
+dracut module 'iscsi' will not be installed, because command 'iscsi-iname' could not be found!
+95nfs: Could not find any command of 'rpcbind portmap'!
+*** Including module: bash ***
+*** Including module: test ***
+*** Including module: nss-softokn ***
+*** Including module: i18n ***
+*** Including module: network ***
+*** Including module: ifcfg ***
+*** Including module: drm ***
+*** Including module: plymouth ***
+*** Including module: dm ***
+Skipping udev rule: 64-device-mapper.rules
+Skipping udev rule: 60-persistent-storage-dm.rules
+Skipping udev rule: 55-dm.rules
+*** Including module: kernel-modules ***
+*** Including module: lvm ***
+Skipping udev rule: 64-device-mapper.rules
+Skipping udev rule: 56-lvm.rules
+Skipping udev rule: 60-persistent-storage-lvm.rules
+*** Including module: qemu ***
+*** Including module: resume ***
+*** Including module: rootfs-block ***
+*** Including module: terminfo ***
+*** Including module: udev-rules ***
+Skipping udev rule: 40-redhat-cpu-hotplug.rules
+Skipping udev rule: 91-permissions.rules
+*** Including module: biosdevname ***
+*** Including module: systemd ***
+*** Including module: usrmount ***
+*** Including module: base ***
+*** Including module: fs-lib ***
+*** Including module: microcode_ctl-fw_dir_override ***
+  microcode_ctl module: mangling fw_dir
+    microcode_ctl: reset fw_dir to "/lib/firmware/updates /lib/firmware"
+    microcode_ctl: processing data directory  "/usr/share/microcode_ctl/ucode_with_caveats/intel"...
+intel: model '', path ' intel-ucode/*', kvers ''
+intel: blacklist ''
+    microcode_ctl: intel: Host-Only mode is enabled and "intel-ucode/06-9e-0a" matches "intel-ucode/*"
+      microcode_ctl: intel: caveats check for kernel version "3.10.0-957.12.2.el7.x86_64" passed, adding "/usr/share/microcode_ctl/ucode_with_caveats/intel" to fw_dir variable
+    microcode_ctl: processing data directory  "/usr/share/microcode_ctl/ucode_with_caveats/intel-06-4f-01"...
+intel-06-4f-01: model 'GenuineIntel 06-4f-01', path ' intel-ucode/06-4f-01', kvers ' 4.17.0 3.10.0-894 3.10.0-862.6.1 3.10.0-693.35.1 3.10.0-514.52.1 3.10.0-327.70.1 2.6.32-754.1.1 2.6.32-573.58.1 2.6.32-504.71.1 2.6.32-431.90.1 2.6.32-358.90.1'
+intel-06-4f-01: blacklist ''
+intel-06-4f-01: caveat is disabled in configuration
+    microcode_ctl: kernel version "3.10.0-957.12.2.el7.x86_64" failed early load check for "intel-06-4f-01", skipping
+    microcode_ctl: final fw_dir: "/usr/share/microcode_ctl/ucode_with_caveats/intel /lib/firmware/updates /lib/firmware"
+*** Including module: shutdown ***
+*** Including modules done ***
+*** Installing kernel module dependencies and firmware ***
+*** Installing kernel module dependencies and firmware done ***
+*** Resolving executable dependencies ***
+*** Resolving executable dependencies done***
+*** Hardlinking files ***
+*** Hardlinking files done ***
+*** Stripping files ***
+*** Stripping files done ***
+*** Generating early-microcode cpio image contents ***
+*** Constructing GenuineIntel.bin ****
+*** Constructing GenuineIntel.bin ****
+*** Store current command line parameters ***
+*** Creating image file ***
+*** Creating microcode section ***
+*** Created microcode section ***
+*** Creating image file done ***
+*** Creating initramfs image file '/boot/initramfs-3.10.0-957.12.2.el7.x86_64.img' done ***
+]0;root@localhost:~/boot[root@localhost boot]# lsinitrd -m /boot/initramfs-$(uname -r).img | grep test
+[01;31m[Ktest[m[K
+]0;root@localhost:~/boot[root@localhost boot]# тф[K[Knano /boot [K/grub2/grub.cfg 
+[?1049h[1;52r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1           File: /boot/grub2/grub.cfg                             [3;1H(B[m#[4d# DO NOT EDIT THIS FILE[5d#[6d# It is automatically generated by grub2-mkconfig using templates[7d# from /etc/grub.d and settings from /etc/default/grub[8d#[10d### BEGIN /etc/grub.d/00_header ###[11dset pager=1[13dif [ -s $prefix/grubenv ]; then[14;3Hload_env[15dfi[16dif [ "${next_entry}" ] ; then[17;4Hset default="${next_entry}"[18;4Hset next_entry=[19;4Hsave_env next_entry[20;4Hset boot_once=true[21delse[22dset default="${saved_entry}"[23dfi[25dif [ x"${feature_menuentry_id}" = xy ]; then[26;3Hmenuentry_id_option="--id"[27delse[28dmenuentry_id_option=""[29dfi[31dexport menuentry_id_option[33dif [ "${prev_saved_entry}" ]; then[34;3Hset saved_entry="${prev_saved_entry}"[35;3Hsave_env saved_entry[36;3Hset prev_saved_entry=[37;3Hsave_env prev_saved_entry[38;3Hset boot_once=true[39dfi[41dfunction savedefault {[42;3Hif [ -z "${boot_once}" ]; then[43;5Hsaved_entry="${chosen}"[44;5Hsave_env saved_entry[45;3Hfi[46d}[48dfunction load_video {[49;3Hif [ x$feature_all_video_module = xy ]; then[50;33H(B[0;7m[ Read 141 lines ][51d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[52d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[20d[21d[22d[23d[24d[25d[26d[27d[28d[50d[K[29d[30d[31d[32d[33d[34d[35d[36d[37d[38d[39d[40d[41d[42d[43d[44d[45d[46d[47d[48d[49d7[3;50r8[50d[24S[1;52r[26;5Hinsmod all_video[27;3Helse[28dinsmod efi_gop[29;5Hinsmod efi_uga[30;5Hinsmod ieee1275_fb[31;5Hinsmod vbe[32;5Hinsmod vga[33;5Hinsmod video_bochs[34;5Hinsmod video_cirrus[35;3Hfi[36d}
