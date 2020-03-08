@@ -1,97 +1,0 @@
-Script started on Sun 08 Mar 2020 05:29:37 AM EDT
-]0;root@localhost:~[?1034h[root@localhost ~]# vgs
-  VG       #PV #LV #SN Attr   VSize  VFree
-  OtusRoot   1   2   0 wz--n- <7.00g    0 
-]0;root@localhost:~[root@localhost ~]# vgs[Krename OtusRoot OtusRoot1
-  Volume group "OtusRoot" successfully renamed to "OtusRoot1"
-]0;root@localhost:~[root@localhost ~]# vgrename OtusRoot OtusRoot1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs[Knano typescript [1Pcat[C[C[C[C[C[C[C[C[C[C[C[C[1@nano[C[C[C[C[C[C[C[C[C[C[C[C[1Pcat[C[C[C[C[C[C[C[C[C[C[C[Cls[Krebootкуищщеscript[2Pip amkinitrd -f -v /boot/initramfs-$(uname -r).img $(uname -r)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[33Pnano /boot/grub2/grub.cfg[2Petc/default/grub [8Pfstabvgrename centos OtusRoot[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pnano /etc/fstab
-[?1049h[1;52r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1              File: /etc/fstab                                    [4;1H(B[m#[5d# /etc/fstab[6d# Created by anaconda on Sat Mar  7 08:15:29 2020[7d#[8d# Accessible filesystems, by reference, are maintained under '/dev/disk'[9d# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info[10d#[11d/dev/mapper/OtusRoot-root /[11;51Hxfs     defaults	  0 0[12dUUID=e144b723-d584-4df3-a9cf-022b962145cb /boot[12;67Hxfs     default$[13;1H/dev/mapper/OtusRoot-swap swap[13;51Hswap    defaults	  0 0[50;33H(B[0;7m[ Read 11 lines ][51d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[52d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d[8d[9d[10d[11d/dev/ma	per/Otu	R[50d[K[11;19Hot[1;73H(B[0;7mModified[11;21H(B[m1-root /[11;51H xfs     defaults	   0 0[11;22H[12d[13d1-swap swap[13;51H swap    defaults	   0 0[13;22H[50d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                      [51;1H Y(B[m Yes[K[52d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[50;62H(B[0;7mFile Name to Write: /etc/fstab                              [51d^G(B[m Get Help[51;21H(B[0;7mM-D(B[m DOS Format	(B[0;7mM-A(B[m Append[51;61H(B[0;7mM-B(B[m Backup File[52d(B[0;7m^C(B[m Cancel	    (B[0;7mM-M(B[m Mac Format	(B[0;7mM-P(B[m Prepend[50;31H[51d[39;49m(B[m[J[1;73H(B[0;7m        [50;32H(B[m[1K	(B[0;7m[ Wrote 11 lines ](B[m[K[52;82H[52;1H[?1049l[?1l>]0;root@localhost:~[root@localhost ~]# nano /etc/fstabvgrename OtusRoot OtusRoot1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs[Knano typescript [1Pcat[C[C[C[C[C[C[C[C[C[C[C[C[1@nano[C[C[C[C[C[C[C[C[C[C[C[C[1Pcat[C[C[C[C[C[C[C[C[C[C[C[Cls[Krebootкуищщеscript[2Pip amkinitrd -f -v /boot/initramfs-$(uname -r).img $(uname -r)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[33Pnano /boot/grub2/grub.cfg[2Petc/default/grub [8Pfstabdefault/grub 
-[?1049h[1;52r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1            File: /etc/default/grub                               [3;1H(B[mGRUB_TIMEOUT=5[4dGRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"[5dGRUB_DEFAULT=saved[6dGRUB_DISABLE_SUBMENU=true[7dGRUB_TERMINAL_OUTPUT="console"[8dGRUB_CMDLINE_LINUX="crashkernel=auto rd.lvm.lv=OtusRoot/root rd.lvm.lv=OtusRoot/s$[9;1HGRUB_DISABLE_RECOVERY="true"[50;34H(B[0;7m[ Read 7 lines ][51d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[52d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d[8dGRUB_CM	LINE_LI	UX="[50d[K[8;22Hra	hkernel	auto rd	lvm.lv=	tusRoot[1;73H(B[0;7mModified[8;56H(B[m1/root rd.lvm.lv=OtusRoot/[8;57H/root r	.lvm.lv	OtusRoo	$sRoot1/swap rhgb quiet"[K[8G[50d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                      [51;1H Y(B[m Yes[K[52d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[50;62H(B[0;7mFile Name to Write: /etc/default/grub                       [51d^G(B[m Get Help[51;21H(B[0;7mM-D(B[m DOS Format	(B[0;7mM-A(B[m Append[51;61H(B[0;7mM-B(B[m Backup File[52d(B[0;7m^C(B[m Cancel	    (B[0;7mM-M(B[m Mac Format	(B[0;7mM-P(B[m Prepend[50;38H[51d[39;49m(B[m[J[1;73H(B[0;7m        [50;32H(B[m[1K	(B[0;7m[ Wrote 7 lines ](B[m[K[52;82H[52;1H[?1049l[?1l>]0;root@localhost:~[root@localhost ~]# nano /etc/default/grub [8Pfstabvgrename OtusRoot OtusRoot1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs[Knano typescript [1Pcat[C[C[C[C[C[C[C[C[C[C[C[C[1@nano[C[C[C[C[C[C[C[C[C[C[C[C[1Pcat[C[C[C[C[C[C[C[C[C[C[C[Cls[Krebootкуищщеscript[2Pip amkinitrd -f -v /boot/initramfs-$(uname -r).img $(uname -r)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[33Pnano /boot/grub2/grub.cfg[2Petc/default/grub boot/grub2/grub.cfg
-[?1049h[1;52r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1           File: /boot/grub2/grub.cfg                             [3;1H(B[m#[4d# DO NOT EDIT THIS FILE[5d#[6d# It is automatically generated by grub2-mkconfig using templates[7d# from /etc/grub.d and settings from /etc/default/grub[8d#[10d### BEGIN /etc/grub.d/00_header ###[11dset pager=1[13dif [ -s $prefix/grubenv ]; then[14;3Hload_env[15dfi[16dif [ "${next_entry}" ] ; then[17;4Hset default="${next_entry}"[18;4Hset next_entry=[19;4Hsave_env next_entry[20;4Hset boot_once=true[21delse[22dset default="${saved_entry}"[23dfi[25dif [ x"${feature_menuentry_id}" = xy ]; then[26;3Hmenuentry_id_option="--id"[27delse[28dmenuentry_id_option=""[29dfi[31dexport menuentry_id_option[33dif [ "${prev_saved_entry}" ]; then[34;3Hset saved_entry="${prev_saved_entry}"[35;3Hsave_env saved_entry[36;3Hset prev_saved_entry=[37;3Hsave_env prev_saved_entry[38;3Hset boot_once=true[39dfi[41dfunction savedefault {[42;3Hif [ -z "${boot_once}" ]; then[43;5Hsaved_entry="${chosen}"[44;5Hsave_env saved_entry[45;3Hfi[46d}[48dfunction load_video {[49;3Hif [ x$feature_all_video_module = xy ]; then[50;33H(B[0;7m[ Read 141 lines ][51d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[52d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[20d[21d[22d[23d[24d[25d[26d[27d[28d[50d[K[29d[30d[31d[32d[33d[34d[35d[36d[37d[38d[39d[40d[41d[42d[43d[44d[45d[46d[47d[48d[49d7[3;50r8[50d[24S[1;52r[26;5Hinsmod all_video[27;3Helse[28dinsmod efi_gop[29;5Hinsmod efi_uga[30;5Hinsmod ieee1275_fb[31;5Hinsmod vbe[32;5Hinsmod vga[33;5Hinsmod video_bochs[34;5Hinsmod video_cirrus[35;3Hfi[36d}[38dterminal_output console[39dif [ x$feature_timeout_style = xy ] ; then[40;3Hset timeout_style=menu[41;3Hset timeout=5[42d# Fallback normal timeout code in case the timeout_style feature is[43d# unavailable.[44delse[45dset timeout=5[46dfi[47d### END /etc/grub.d/00_header ###[49d### BEGIN /etc/grub.d/00_tuned ###[26d[27d[28d[29d[30d[31d[32d[33d[34d[35d[36d[37d[38d[39d[40d[41d[42d[43d[44d[45d[46d[47d[48d[49d7[3;50r8[50d[24S[1;52r[26;1Hset tuned_params=""[27dset tuned_initrd=""[28d### END /etc/grub.d/00_tuned ###[30d### BEGIN /etc/grub.d/01_users ###[31dif [ -f ${prefix}/user.cfg ]; then[32;3Hsource ${prefix}/user.cfg[33;3Hif [ -n "${GRUB2_PASSWORD}" ]; then[34;5Hset superusers="root"[35;5Hexport superusers[36;5Hpassword_pbkdf2 root ${GRUB2_PASSWORD}[37;3Hfi[38dfi[39d### END /etc/grub.d/01_users ###[41d### BEGIN /etc/grub.d/10_linux ###[42dmenuentry 'CentOS Linux (3.10.0-957.12.2.el7.x86_64) 7 (Core)' --class centos --c$[43;9Hload_video[44;9Hset gfxpayload=keep[45;9Hinsmod gzio[46;9Hinsmod part_msdos[47;9Hinsmod xfs[48;9Hset root='hd0,msdos1'[49;9Hif [ x$feature_platform_search_hint = xy ]; then[26d[27d[28d[29d[30d[31d[32d[33d[34d[35d[36d[37d[38d[39d[40d[41d[42d[43d[44d[45d[46d[47d[48d[49d7[3;50r8[50d[24S[1;52r[26;11Hsearch --no-floppy --fs-uuid --set=root --hint-bios=hd0,msdos1 --hint-e$[27;9Helse[28dsearch --no-floppy --fs-uuid --set=root e144b723-d584-4df3-a9cf-022b962$[29;9Hfi[30d	linux16 /vmlinuz-3.10.0-957.12.2.el7.x86_64 root=/dev/mapper/OtusRoot-roo$[31;9Hinitrd16 /initramfs-3.10.0-957.12.2.el7.x86_64.img[32d}[33dmenuentry 'CentOS Linux (0-rescue-84ab9451a14a614e9f8232ffe76fc20a) 7 (Core)' --c$[34;9Hload_video[35;9Hinsmod gzio[36;9Hinsmod part_msdos[37;9Hinsmod xfs[38;9Hset root='hd0,msdos1'[39;9Hif [ x$feature_platform_search_hint = xy ]; then[40;11Hsearch --no-floppy --fs-uuid --set=root --hint-bios=hd0,msdos1 --hint-e$[41;9Helse[42dsearch --no-floppy --fs-uuid --set=root e144b723-d584-4df3-a9cf-022b962$[43;9Hfi[44d	linux16 /vmlinuz-0-rescue-84ab9451a14a614e9f8232ffe76fc20a root=/dev/mapp$[45;9Hinitrd16 /initramfs-0-rescue-84ab9451a14a614e9f8232ffe76fc20a.img[46d}[48d### END /etc/grub.d/10_linux ###[26d[27d[28d[29d[30d[31d[32d[33d[A[A[A[A[30d[30;9Hlinux16	/vmlinu	-3.10.0	957.12.	.el7.x8	_64 roo	=/dev/m	pper/Ot	sRoot[1;73H(B[0;7mModified[30;78H(B[m1-r-	$ot1-root ro crashkernel=auto rd.lvm.lv=OtusRoot/root rd.lvm.lv=OtusRoot/swap rhg[8G	t ro cr	shkerne	=auto r	.lvm.lv	OtusRoo	1/root rd.lvm.lv=OtusRoot/swap rh[30;50H/root 	d.lvm.l	=OtusRo	t1/swap r[75G/swap	$swap rhgb quiet LANG=en_US.UTF-8[K[8G	gb 	$ot1-root ro crashkernel=auto rd.lvm.lv=OtusRoot1/root rd.lvm.lv=OtusRoot1/swap r$[30;81H[Z[Z[50d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                      [51;1H Y(B[m Yes[K[52d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[50;62H(B[0;7mFile Name to Write: /boot/grub2/grub.cfg                    [51d^G(B[m Get Help[51;21H(B[0;7mM-D(B[m DOS Format	(B[0;7mM-A(B[m Append[51;61H(B[0;7mM-B(B[m Backup File[52d(B[0;7m^C(B[m Cancel	    (B[0;7mM-M(B[m Mac Format	(B[0;7mM-P(B[m Prepend[50;41H[51d[39;49m(B[m[J[1;73H(B[0;7m        [50;31H(B[m[1K (B[0;7m[ Wrote 141 lines ](B[m[K[52;82H[52;1H[?1049l[?1l>]0;root@localhost:~[root@localhost ~]# mkinitrd -f -v /boot/initramfs-$(uname -r).img $(uname -r)
-Executing: /usr/sbin/dracut -f -v /boot/initramfs-3.10.0-957.12.2.el7.x86_64.img 3.10.0-957.12.2.el7.x86_64
-dracut module 'modsign' will not be installed, because command 'keyctl' could not be found!
-dracut module 'busybox' will not be installed, because command 'busybox' could not be found!
-dracut module 'crypt' will not be installed, because command 'cryptsetup' could not be found!
-dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
-dracut module 'dmsquash-live-ntfs' will not be installed, because command 'ntfs-3g' could not be found!
-dracut module 'mdraid' will not be installed, because command 'mdadm' could not be found!
-dracut module 'multipath' will not be installed, because command 'multipath' could not be found!
-dracut module 'cifs' will not be installed, because command 'mount.cifs' could not be found!
-dracut module 'iscsi' will not be installed, because command 'iscsistart' could not be found!
-dracut module 'iscsi' will not be installed, because command 'iscsi-iname' could not be found!
-95nfs: Could not find any command of 'rpcbind portmap'!
-dracut module 'modsign' will not be installed, because command 'keyctl' could not be found!
-dracut module 'busybox' will not be installed, because command 'busybox' could not be found!
-dracut module 'crypt' will not be installed, because command 'cryptsetup' could not be found!
-dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
-dracut module 'dmsquash-live-ntfs' will not be installed, because command 'ntfs-3g' could not be found!
-dracut module 'mdraid' will not be installed, because command 'mdadm' could not be found!
-dracut module 'multipath' will not be installed, because command 'multipath' could not be found!
-dracut module 'cifs' will not be installed, because command 'mount.cifs' could not be found!
-dracut module 'iscsi' will not be installed, because command 'iscsistart' could not be found!
-dracut module 'iscsi' will not be installed, because command 'iscsi-iname' could not be found!
-95nfs: Could not find any command of 'rpcbind portmap'!
-*** Including module: bash ***
-*** Including module: nss-softokn ***
-*** Including module: i18n ***
-*** Including module: network ***
-*** Including module: ifcfg ***
-*** Including module: drm ***
-*** Including module: plymouth ***
-*** Including module: dm ***
-Skipping udev rule: 64-device-mapper.rules
-Skipping udev rule: 60-persistent-storage-dm.rules
-Skipping udev rule: 55-dm.rules
-*** Including module: kernel-modules ***
-*** Including module: lvm ***
-Skipping udev rule: 64-device-mapper.rules
-Skipping udev rule: 56-lvm.rules
-Skipping udev rule: 60-persistent-storage-lvm.rules
-*** Including module: qemu ***
-*** Including module: resume ***
-*** Including module: rootfs-block ***
-*** Including module: terminfo ***
-*** Including module: udev-rules ***
-Skipping udev rule: 40-redhat-cpu-hotplug.rules
-Skipping udev rule: 91-permissions.rules
-*** Including module: biosdevname ***
-*** Including module: systemd ***
-*** Including module: usrmount ***
-*** Including module: base ***
-*** Including module: fs-lib ***
-*** Including module: microcode_ctl-fw_dir_override ***
-  microcode_ctl module: mangling fw_dir
-    microcode_ctl: reset fw_dir to "/lib/firmware/updates /lib/firmware"
-    microcode_ctl: processing data directory  "/usr/share/microcode_ctl/ucode_with_caveats/intel"...
-intel: model '', path ' intel-ucode/*', kvers ''
-intel: blacklist ''
-    microcode_ctl: intel: Host-Only mode is enabled and "intel-ucode/06-9e-0a" matches "intel-ucode/*"
-      microcode_ctl: intel: caveats check for kernel version "3.10.0-957.12.2.el7.x86_64" passed, adding "/usr/share/microcode_ctl/ucode_with_caveats/intel" to fw_dir variable
-    microcode_ctl: processing data directory  "/usr/share/microcode_ctl/ucode_with_caveats/intel-06-4f-01"...
-intel-06-4f-01: model 'GenuineIntel 06-4f-01', path ' intel-ucode/06-4f-01', kvers ' 4.17.0 3.10.0-894 3.10.0-862.6.1 3.10.0-693.35.1 3.10.0-514.52.1 3.10.0-327.70.1 2.6.32-754.1.1 2.6.32-573.58.1 2.6.32-504.71.1 2.6.32-431.90.1 2.6.32-358.90.1'
-intel-06-4f-01: blacklist ''
-intel-06-4f-01: caveat is disabled in configuration
-    microcode_ctl: kernel version "3.10.0-957.12.2.el7.x86_64" failed early load check for "intel-06-4f-01", skipping
-    microcode_ctl: final fw_dir: "/usr/share/microcode_ctl/ucode_with_caveats/intel /lib/firmware/updates /lib/firmware"
-*** Including module: shutdown ***
-*** Including modules done ***
-*** Installing kernel module dependencies and firmware ***
-*** Installing kernel module dependencies and firmware done ***
-*** Resolving executable dependencies ***
-*** Resolving executable dependencies done***
-*** Hardlinking files ***
-*** Hardlinking files done ***
-*** Stripping files ***
-*** Stripping files done ***
-*** Generating early-microcode cpio image contents ***
-*** Constructing GenuineIntel.bin ****
-*** Constructing GenuineIntel.bin ****
-*** Store current command line parameters ***
-*** Creating image file ***
-*** Creating microcode section ***
-*** Created microcode section ***
-*** Creating image file done ***
-*** Creating initramfs image file '/boot/initramfs-3.10.0-957.12.2.el7.x86_64.img' done ***
-]0;root@localhost:~[root@localhost ~]# exit
-
-Script done on Sun 08 Mar 2020 05:41:03 AM EDT
