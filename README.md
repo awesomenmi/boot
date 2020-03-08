@@ -5,4 +5,4 @@
 Проделанные [действия](typescript_module), записанные с помощью утилиты script
 
 Пингвин в выводе терминала:
-[screen](https://sun9-7.userapi.com/c857136/v857136368/1101df/Rqu6qw-VFek.jpg)
+![screen](https://sun9-7.userapi.com/c857136/v857136368/1101df/Rqu6qw-VFek.jpg)
